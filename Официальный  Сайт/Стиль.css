@@ -1,0 +1,32 @@
+@font-face{
+    font-family: Moscow;
+    font-weight: normal;
+    font-style: normal;
+ src: url(Moscow\ Sans\ Regular\ Regular.ttf);}
+body{
+    background-color: wheat;
+    font-family: Moscow;
+    font-weight: 300;
+    margin: 0px;
+    border: 7px solid rebeccapurple;
+}
+h1{
+    color: teal;}
+h2{
+    color: yellowgreen;}
+nav a:hover {
+    background-color: indianred;
+    color: olive;}
+nav{
+    font-size: 25px;}
+nav a{
+    color: palevioletred;
+    text-align: center;
+    padding: 10px;
+    text-decoration: solid underline aqua;}
+header{
+    background: saddlebrown;
+    padding: 20px;
+    color: darkcyan;
+    text-align: center;
+}
