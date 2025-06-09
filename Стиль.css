@@ -1,40 +1,39 @@
-@font-face{
+@font-face {
     font-family: Moscow;
     font-weight: normal;
     font-style: normal;
  src: url(Moscow\ Sans\ Regular\ Regular.ttf);}
-header{
-    background: wheat;
+header {
+    background: darkgrey;
     padding: 20px;
     text-align: center;}
- body{
-    background-color: rosybrown;
+body {
+    background-color: lightgray;
     font-family: Moscow;
     font-weight: 300;
     margin: 0px;
-    border: 7px solid tan;
-}
-h1{
-    color: yellowgreen;}
-h2{
+    border: 7px solid black;}
+h1 {
+    color: tan;}
+h2 {
+    color: sandybrown;}
+h3 {
+    color: goldenrod;}
+h4 {
+    color: hotpink;}
+h5 {
     color: indigo;}
-h3{
-    color: orange;}
-h4{
-    color: paleturquoise;}
-h5{
-    color: aqua;}
-h6{color: skyblue;}
-a{
-    font-size: 25px;
-    color: darkblue;}
-nav a{
-    color: forestgreen;
+h6 { color: blue;}
+a {
+    font-size: 20px;
+    color: lawngreen;}
+nav a {
+    color: teal;
     text-align: center;
     padding: 10px;
-    text-decoration: solid underline gold;}
+    text-decoration: solid underline navajowhite;}
 nav a:hover {
-    color: hotpink;
-    background-color: khaki;}
-nav{
+    color: orange;
+    background-color: palegreen;}
+nav {
     font-size: 25px;}
