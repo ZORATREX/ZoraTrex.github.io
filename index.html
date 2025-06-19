@@ -5,21 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZoraTrex</title>
     <link rel="stylesheet" href="Стиль.css">
-    <script src="JavaScript.js"></script>
 </head>
 <body>
     <header>
         <nav>
             <a href="Галерея.html">Галерея Капи</a>
             <a href="Музыка.html">Музыка Капи Из FNF</a>
-            <a>Метро{Не Рабочая}</a>
-            
-            <a>3D Игра(Без названия){Не Рабочая}</a>
-
-            
+            <div class="container">
+                <a id="open-modal-btn">Факты О  Капи</a>
+            </div>
         </nav>
     </header>
-    <img src="image.png" alt="Ошибка Загрузки PNG" width="300">   
+    <img src="Иконка.png" alt="Иконка" width="300"> 
+            <div class="modal" id="my-modal">
+            <div class="modal__box">
+                <a class="modal__close-btn" id="close-my-model-btn">
+                    <svg width="25" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z" fill="#333333"/>
+                        <path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0259Z" fill="#333333"/>
+                    </svg>
+                </a>
+                <h1>Факты О Капи</h1>
+                <ol>
+                    <li>У Капи Аллергия На Яблоки</li>
+                    <li>У Капи Синдром Туретта</li>
+                    <li>Капи Работает В Кондитерской</li>
+                    <li>Умеет Водить Автомобиль</li>
+                    <li>Капи Бросил Школу Из-зо Эмоционального Выгорания</li>
+                    <li>Любимая Еда Капи Блины</li>
+                    <li>Капи Не Вежлев К Другим Котам</li>
+                    <li>Лучший Друг Капи "Локи"</li>
+                    <li>У Капи Плохая Внимательность</li>
+                </ol>
+            </div>
+        </div>  
     <h1>ZoraTrex Официальный Сайт</h1>
     <H2>ДЕМО ВЕРСИЯ</H2>
     <h2>Выберите Ссылку Сверху Куда Вы Хотите Переключится</h2>
@@ -35,4 +54,10 @@
         <a href="https://www.twitch.tv/zoratrex" target="_blank">Твич</a>
     </nav>
 </body>
+<footer>
+    <h2>Сайт Создал ZoraTrex</h2>
+    <h4>При Поддержки Корпорацией SZ</h4>
+    <h5><a href="https://web.telegram.org/k/#@CorporationSZ">Канал SZ ТГ</a></h5>
+</footer>
+<script src="JavaScript.js"></script>
 </html>

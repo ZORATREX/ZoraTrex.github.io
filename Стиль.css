@@ -4,7 +4,7 @@
     font-style: normal;
  src: url(Moscow\ Sans\ Regular\ Regular.ttf);}
 header {
-    background: darkgrey;
+    background: silver;
     padding: 20px;
     text-align: center;}
 body {
@@ -16,7 +16,7 @@ body {
 h1 {
     color: tan;}
 h2 {
-    color: sandybrown;}
+    color: brown;}
 h3 {
     color: goldenrod;}
 h4 {
@@ -37,3 +37,72 @@ nav a:hover {
     background-color: palegreen;}
 nav {
     font-size: 25px;}
+footer{
+    background-color: darkgrey;
+    height: max-content;
+}
+
+*,
+*::before
+*::after {
+    box-sizing: inherit;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.modal{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 99998;
+    background-color: rgba(0, 255, 255, 0.3);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+     visibility: hidden;
+     opacity: 0;
+     transition: opacity .4s, visibility .4s;
+
+}
+.modal__box{
+    position: relative;
+    max-width: 500px;
+    padding: 45px;
+    z-index: 1;
+    margin: 30px 15px;
+    background-color: azure;
+    box-shadow: 12px 11px 0px 3px rgba(34, 60, 80, 0.3);
+    transform: scale(0);
+    transition: transform .7s;
+}
+.modal__close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    cursor: pointer;
+}
+.modal__close-btn svg path{
+    transition: fill .5s;
+}
+.modal__close-btn:hover svg path{
+    fill: red;
+}
+.modal__close-btn:active svg path{
+    fill: crimson;
+}
+.modal.open{
+    visibility: visible;
+    opacity: 1;
+
+}
+.modal.open .modal__box{
+    transform: scale(1);
+}
